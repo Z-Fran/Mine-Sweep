@@ -3,7 +3,7 @@ GameEngine.cpp
 Author: Root
 Date: 2019/12/09
 Description:
-定义了程序游戏模块，用GameEngine命名空间防止同名污染，是你主要需要修改的文件
+Defines the program's game module, uses the GameEngine namespace to prevent naming conflicts, and is the main file you need to modify.
 *****************************************/
 #include "GameEngine.h"
 

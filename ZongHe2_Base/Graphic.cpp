@@ -3,8 +3,8 @@ GameMenu.cpp
 Author: Root
 Date: 2019/12/09
 Description:
-定义了渲染框架，用Graphic命名空间防止同名污染
-！*！注意：除非你能完全读懂内部都在做什么操作，否则不建议修改这个文件！*！
+Defines the rendering framework, uses the Graphic namespace to prevent naming conflicts
+!*! Note: Unless you fully understand what operations are being performed internally, it is not recommended to modify this file!*!
 *****************************************/
 #include "Graphic.h"
 

@@ -3,7 +3,7 @@ HexagonGameEngine.cpp
 Author: Root
 Date: 2019/12/26
 Description:
-定义了六边形模式程序游戏模块，用HexagonGameEngine命名空间防止同名污染，是你主要需要修改的文件
+Defines the hexagonal mode program game module, uses the HexagonGameEngine namespace to prevent naming conflicts, and is the main file you need to modify
 *****************************************/
 #include "HexagonGameEngine.h"
 

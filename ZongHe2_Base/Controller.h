@@ -3,13 +3,13 @@ Controller.h
 Author: Root
 Date: 2019/12/09
 Description:
-定义了控制框架的头文件，用Controller命名空间防止同名污染
-各函数说明：
-void FlushInput()	  更新输入缓冲区
-char GetKeyHit()	  获取键盘输入
-COORD GetCursorPos()  获取鼠标当前坐标（在控制台内的坐标）
-COORD GetCursorHitPos(DWORD type = 1) 获取当前鼠标点击的坐标，type将决定是获取左键/右键还是左键双击的坐标
-void InitController() 初始化控制器
+Defines the controller framework header file, using Controller namespace to prevent naming conflicts
+Function descriptions:
+void FlushInput()      Flush the input buffer
+char GetKeyHit()       Get keyboard input
+COORD GetCursorPos()   Get current cursor position (coordinates within console)
+COORD GetCursorHitPos(DWORD type = 1) Get current click position, type determines whether to get left/right click or double click
+void InitController()  Initialize the controller
 *****************************************/
 #pragma once
 #ifndef CONTROLLER_H

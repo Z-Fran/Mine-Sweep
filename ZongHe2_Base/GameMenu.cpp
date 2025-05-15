@@ -3,7 +3,7 @@ GameMenu.cpp
 Author: Root
 Date: 2019/12/09
 Description:
-定义了程序菜单的渲染/管理模块，用GameMenu命名空间防止同名污染
+Defines the program's menu rendering/management module, uses the GameMenu namespace to prevent naming conflicts.
 *****************************************/
 #include "GameMenu.h"
 
